@@ -2,7 +2,7 @@
 	@LastName nvarchar(50)
 AS
 begin
-	select [Id], [FirstName], [LastName] 
+	select [PersonId], [FirstName], [LastName] 
 	from dbo.Person
 	where LastName = @LastName;
 end

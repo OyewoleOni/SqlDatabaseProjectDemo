@@ -72,4 +72,7 @@
   <ItemGroup>
     <None Include="PublishLocations\LocalDemoDB.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SQLProject.refactorlog" />
+  </ItemGroup>
 </Project>
